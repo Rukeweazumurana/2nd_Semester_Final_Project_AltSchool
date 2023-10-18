@@ -34,4 +34,9 @@
 .values button:last-of-type {
   background-color: rgb(242, 210, 189);
 }
-
+@media (max-width: 1024px) {
+  .counterwrapper {
+    margin: 50px auto;
+    height: 420px;
+  }
+}
