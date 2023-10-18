@@ -6,13 +6,4 @@
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-  .notfound {
-    margin-top: -650px;
-  }
-}
-@media (max-width: 415px) {
-  .notfound {
-    margin-top: -550px;
-  }
-}
+
