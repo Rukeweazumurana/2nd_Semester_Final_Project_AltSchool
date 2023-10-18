@@ -1,5 +1,5 @@
 import './style.css';
-import React, { useState } from 'react';
+import React from 'react';
 import { Routes, Route, NavLink } from 'react-router-dom';
 import CustomHooks from './Components/CustomHooks';
 import NotFound from './Components/NotFound';
