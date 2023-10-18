@@ -1,0 +1,5 @@
+Libraries used:
+1) react
+2)react-dom
+3)react-router-dom
+4)styled-components
