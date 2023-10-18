@@ -15,7 +15,7 @@ class ErrorBoundary extends React.Component {
       return (
         <div>
           <h1>
-            Ooops! Something went wrong!! <a href="/">return home</a>
+            Ooops! Something went wrong!! 
           </h1>
           <a href="/">return home</a>
         </div>
