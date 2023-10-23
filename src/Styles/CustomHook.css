@@ -1,11 +1,11 @@
 .counterwrapper {
-  margin: 160px auto;
-  width: 800px;
-  height: 500px;
+  margin: 8rem auto;
+  width: 50%;
+  height: 50vh;
   font-weight: 700;
-  font-size: 36px;
-  padding-top: 80px;
-  border-radius: 50px;
+  font-size: 2rem;
+  padding-top: 6rem;
+  border-radius: 6%;
   background: linear-gradient(145deg, #7badd0, #6892af);
   box-shadow: 36px 36px 33px #3f596b, -36px -36px 33px #a7ebff;
 }
@@ -13,11 +13,11 @@
   text-align: center;
 }
 .values input {
-  height: 50px;
-  width: 300px;
+  height: 3rem;
+  width: 70%;
   outline: none;
-  font-size: 24px;
-  padding-left: 30px;
+  font-size: 1.5rem;
+  padding-left: 1em;
 }
 .values button {
   font-size: 24px;
@@ -34,9 +34,153 @@
 .values button:last-of-type {
   background-color: rgb(242, 210, 189);
 }
-@media (max-width: 1024px) {
+
+@media (max-width: 975px) {
   .counterwrapper {
-    margin: 50px auto;
-    height: 420px;
+    padding: 4% 0px;
+    padding-bottom: 15%;
+    width: 60%;
+  }
+  .values button {
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 10px;
   }
 }
+@media (max-width: 620px) {
+  .counterwrapper {
+    width: 80%;
+  }
+}
+@media (max-width: 415px) {
+  .values input {
+    padding-left: 0px;
+    font-size: 1.2rem;
+  }
+}
+@media (max-height: 900px) {
+  .counterwrapper {
+    padding: 1.5rem 0px;
+    margin: 30% auto;
+    height: 85%;
+  }
+}
+@media (max-height: 800px) {
+  .counterwrapper {
+    margin: 8% auto;
+  }
+}
+@media (max-height: 600px) {
+  .counterwrapper {
+    margin: 15% auto;
+  }
+}
+/*
+@media (max-width: 540px) and (max-height: 750px) {
+  .counterwrapper {
+    margin: auto;
+    margin-bottom: -50px;
+    width: 300px;
+    height: 400px;
+    box-shadow: none;
+    margin-right: -16px;
+    font-size: 24px;
+  }
+  .values {
+    margin-top: -32px;
+  }
+  .values input {
+    height: 40px;
+    width: 90%;
+    padding-left: 6px;
+  }
+  .values button {
+    margin: 0 auto;
+    margin-bottom: 12px;
+    font-size: 16px;
+    display: flex;
+    border-radius: 24px;
+  }
+}
+@media (max-width: 500px) {
+  .counterwrapper {
+    margin: -650px auto;
+    width: 300px;
+    height: 400px;
+    box-shadow: none;
+    margin-right: -16px;
+    font-size: 24px;
+  }
+  .values {
+    margin-top: -32px;
+  }
+  .values input {
+    height: 40px;
+    width: 90%;
+    padding-left: 6px;
+  }
+  .values button {
+    margin: 0 auto;
+    margin-bottom: 12px;
+    font-size: 16px;
+    display: flex;
+    border-radius: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .counterwrapper {
+    margin: -750px auto;
+    width: 600px;
+    margin-right: 8px;
+  }
+}
+@media (max-width: 415px) {
+  .counterwrapper {
+    margin: -600px auto;
+    width: 300px;
+    margin-right: -12px;
+    height: 400px;
+    box-shadow: none;
+    font-size: 24px;
+  }
+  .values {
+    margin-top: -32px;
+  }
+  .values input {
+    height: 40px;
+    width: 90%;
+    padding-left: 6px;
+  }
+  .values button {
+    margin: 0 auto;
+    margin-bottom: 12px;
+    font-size: 16px;
+    display: flex;
+    border-radius: 24px;
+  }
+}
+@media (max-width: 375px) {
+  .counterwrapper {
+    margin: -600px auto;
+    width: 250px;
+    height: 400px;
+    box-shadow: none;
+    margin-right: -16px;
+    font-size: 24px;
+  }
+  .values {
+    margin-top: -32px;
+  }
+  .values input {
+    height: 40px;
+    width: 90%;
+    padding-left: 6px;
+  }
+  .values button {
+    margin: 0 auto;
+    margin-bottom: 12px;
+    font-size: 16px;
+    display: flex;
+    border-radius: 24px;
+  }
+} */
