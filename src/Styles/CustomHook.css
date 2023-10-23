@@ -1,11 +1,11 @@
 .counterwrapper {
-  margin: 8rem auto;
-  width: 50%;
-  height: 50vh;
+  margin: 160px auto;
+  width: 800px;
+  height: 500px;
   font-weight: 700;
-  font-size: 2rem;
-  padding-top: 6rem;
-  border-radius: 6%;
+  font-size: 36px;
+  padding-top: 80px;
+  border-radius: 50px;
   background: linear-gradient(145deg, #7badd0, #6892af);
   box-shadow: 36px 36px 33px #3f596b, -36px -36px 33px #a7ebff;
 }
@@ -13,11 +13,11 @@
   text-align: center;
 }
 .values input {
-  height: 3rem;
-  width: 70%;
+  height: 50px;
+  width: 300px;
   outline: none;
-  font-size: 1.5rem;
-  padding-left: 1em;
+  font-size: 24px;
+  padding-left: 30px;
 }
 .values button {
   font-size: 24px;
@@ -35,44 +35,10 @@
   background-color: rgb(242, 210, 189);
 }
 
-@media (max-width: 975px) {
+@media (max-width: 1024px) {
   .counterwrapper {
-    padding: 4% 0px;
-    padding-bottom: 15%;
-    width: 60%;
-  }
-  .values button {
-    margin: 0 auto;
-    display: flex;
-    margin-bottom: 10px;
-  }
-}
-@media (max-width: 620px) {
-  .counterwrapper {
-    width: 80%;
-  }
-}
-@media (max-width: 415px) {
-  .values input {
-    padding-left: 0px;
-    font-size: 1.2rem;
-  }
-}
-@media (max-height: 900px) {
-  .counterwrapper {
-    padding: 1.5rem 0px;
-    margin: 30% auto;
-    height: 85%;
-  }
-}
-@media (max-height: 800px) {
-  .counterwrapper {
-    margin: 8% auto;
-  }
-}
-@media (max-height: 600px) {
-  .counterwrapper {
-    margin: 15% auto;
+    margin: 50px auto;
+    height: 420px;
   }
 }
 
