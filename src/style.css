@@ -24,24 +24,6 @@ nav {
   align-items: center;
 }
 nav img {
-  margin-left: -1.5rem;
+  margin-left: -120px;
 }
 
-@media (max-width: 1660px) {
-  nav {
-    width: 103%;
-  }
-}
-@media (max-width: 600px) {
-  nav {
-    width: 106%;
-    height: 12rem;
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 415px) {
-  nav {
-    width: 110%;
-  }
-}
